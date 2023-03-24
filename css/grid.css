@@ -187,6 +187,19 @@ h6 {
 }
 
 
+/*inner page grid container*/
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  grid-gap: 1.5rem;
+  row-gap: 1rem;
+  margin: 2rem 0;
+}
+
+.page-container>*:first-child {
+  grid-row: 1 / span 3;
+
+}
 
 /*Navigation styles*/
 
@@ -337,3 +350,9 @@ h6 {
 #main-footer .footer-container input[type='submit'] {
   width: 90%;
 }
+
+
+
+
+
+/*About page styling  can be found under utility classes styling above  */
